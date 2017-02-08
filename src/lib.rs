@@ -1,3 +1,8 @@
+//! This crate provides low-level [FFI](https://doc.rust-lang.org/book/ffi.html) bindings
+//! for [librtlsdr](https://git.osmocom.org/rtl-sdr/). See the
+//! [`rtl-sdr.h`](https://git.osmocom.org/rtl-sdr/tree/include/rtl-sdr.h) header
+//! distributed with the library for a description of each corresponding binding.
+
 #![allow(non_camel_case_types)]
 
 extern crate libc;
