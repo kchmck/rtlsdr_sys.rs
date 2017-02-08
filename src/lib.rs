@@ -11,13 +11,13 @@ pub type rtlsdr_read_async_cb_t = extern fn(buf: *mut c_uchar, len: uint32_t,
 
 #[repr(C)]
 pub enum rtlsdr_tuner {
-	RTLSDR_TUNER_UNKNOWN,
-	RTLSDR_TUNER_E4000,
-	RTLSDR_TUNER_FC0012,
-	RTLSDR_TUNER_FC0013,
-	RTLSDR_TUNER_FC2580,
-	RTLSDR_TUNER_R820T,
-	RTLSDR_TUNER_R828D
+    RTLSDR_TUNER_UNKNOWN,
+    RTLSDR_TUNER_E4000,
+    RTLSDR_TUNER_FC0012,
+    RTLSDR_TUNER_FC0013,
+    RTLSDR_TUNER_FC2580,
+    RTLSDR_TUNER_R820T,
+    RTLSDR_TUNER_R828D
 }
 
 #[link(name = "rtlsdr")]
