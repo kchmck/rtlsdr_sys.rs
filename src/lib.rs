@@ -59,6 +59,7 @@ extern {
     pub fn rtlsdr_get_tuner_gains(dev: rtlsdr_dev_t, gains: *mut c_int) -> c_int;
     pub fn rtlsdr_set_tuner_gain(dev: rtlsdr_dev_t, gain: c_int) -> c_int;
     pub fn rtlsdr_get_tuner_gain(dev: rtlsdr_dev_t) -> c_int;
+    pub fn rtlsdr_set_tuner_bandwidth(dev: rtlsdr_dev_t, bw: uint32_t) -> c_int;
     pub fn rtlsdr_set_tuner_if_gain(dev: rtlsdr_dev_t, stage: c_int, gain: c_int) ->c_int;
     pub fn rtlsdr_set_tuner_gain_mode(dev: rtlsdr_dev_t, manual: c_int) -> c_int;
 
