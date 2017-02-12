@@ -2,7 +2,11 @@
 name = "rtlsdr_sys"
 version = "1.1.0"
 authors = ["Mick Koch <mick@kochm.co>"]
+description = "Low-level bindings to librtlsdr"
 license = "GPLv2"
+documentation = "http://kchmck.github.io/doc/rtlsdr_sys/"
+repository = "https://github.com/kchmck/rtlsdr_sys.rs"
+keywords = ["rtl-sdr", "librtlsdr", "ffi"]
 build = "build.rs"
 
 [dependencies]
