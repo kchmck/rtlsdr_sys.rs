@@ -1,3 +1,7 @@
+# rtlsdr\_sys.rs -- Low-level bindings to `librtlsdr`
+
+[Documentation](http://kchmck.github.io/doc/rtlsdr_sys/)
+
 This crate provides low-level [FFI](https://doc.rust-lang.org/book/ffi.html) bindings
 for [librtlsdr](https://git.osmocom.org/rtl-sdr/). See the
 [`rtl-sdr.h`](https://git.osmocom.org/rtl-sdr/tree/include/rtl-sdr.h) header
