@@ -4,9 +4,9 @@ version = "1.1.1"
 authors = ["Mick Koch <mick@kochm.co>"]
 description = "Low-level bindings to librtlsdr"
 license = "GPLv2"
-documentation = "http://kchmck.github.io/doc/rtlsdr_sys/"
+documentation = "https://docs.rs/rtlsdr_sys/"
 repository = "https://github.com/kchmck/rtlsdr_sys.rs"
-keywords = ["rtl-sdr", "librtlsdr", "ffi"]
+keywords = ["rtl-sdr", "librtlsdr", "ffi", "rtlsdr", "sys"]
 build = "build.rs"
 
 [dependencies]

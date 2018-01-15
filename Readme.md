@@ -1,6 +1,6 @@
-# rtlsdr\_sys.rs -- Low-level bindings to `librtlsdr`
+# rtlsdr\_sys.rs – Low-level bindings to `librtlsdr`
 
-[Documentation](http://kchmck.github.io/doc/rtlsdr_sys/)
+[Documentation](https://docs.rs/rtlsdr_sys)
 
 This crate provides low-level [FFI](https://doc.rust-lang.org/book/ffi.html) bindings
 for [librtlsdr](https://git.osmocom.org/rtl-sdr/). See the
@@ -9,11 +9,12 @@ distributed with the library for a description of each corresponding binding.
 
 ## Usage
 
-This crate can be used through cargo by adding it as a dependency in `Cargo.toml`:
+This [crate](https://crates.io/crates/rtlsdr_sys) can be used through cargo by adding it
+as a dependency in `Cargo.toml`:
 
 ```toml
 [dependencies]
-rtlsdr_sys = {git = "https://github.com/kchmck/rtlsdr_sys.rs"}
+rtlsdr_sys = "1.1.0"
 ```
 and importing it in the crate root:
 
