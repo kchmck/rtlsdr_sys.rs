@@ -10,7 +10,7 @@ keywords = ["rtl-sdr", "librtlsdr", "ffi", "rtlsdr", "sys"]
 build = "build.rs"
 
 [dependencies]
-libc = "^0.2.8"
+libc = "0.2.8"
 
 [build-dependencies]
-pkg-config = "^0.3.6"
+pkg-config = "0.3.6"
